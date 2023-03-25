@@ -19,7 +19,6 @@
 $(function(){
     $("#header").load("view/header.html"); 
     $("#footer").load("view/footer.html"); 
-    $("#content").load("pages/home.html");
   });
 </script>
 
@@ -28,6 +27,18 @@ $(function(){
         <div id="header"></div>
     </footer>
     
+    <script>
+    $(function() {
+        var url = window.location.pathname
+
+        switch (url) {
+            case '/':
+                $('#content').load("pages/home.html");
+            case 'curriculum':
+                $('#content').load("pages/curriculum.html");
+        }
+    });
+    </script>
     <main>
         <div id="content"></div>
     </main>

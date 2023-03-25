@@ -2,6 +2,10 @@
     flex-direction: row;
 }
 
+.dynamic-content {
+    display:none;
+}
+
 .nav-link {
     padding-right: 0.5rem !important;
     padding-left: 0.5rem !important;

@@ -12,45 +12,34 @@
 
     <link rel="stylesheet" href="css/styles.css">
 
-    <script src="https://code.jquery.com/jquery-3.6.4.js" integrity="sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.4.js"
+        integrity="sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E=" crossorigin="anonymous"></script>
 
     <script src="js/script.js"></script>
 </head>
 
 <script>
-$(function(){
-    $("#header").load("view/header.html"); 
-    $("#footer").load("view/footer.html"); 
-  });
+    $(function () {
+        $("#header").load("view/header.html");
+        $("#footer").load("view/footer.html");
+    });
 </script>
 
 <body>
     <footer>
         <div id="header"></div>
     </footer>
-    
-    <script>
-    $(function() {
-        var url = window.location.pathname
 
-        switch (url) {
-            case '/':
-                $('#content').load("pages/home.html");
+    <script src="js/pages.js"></script>
 
-            case 'curriculum':
-                $('#content').load("pages/curriculum.html");
-
-            case 'projects':
-                $('#content').load("pages/curriculum.html");
-
-            case 'contacts':
-                $('#content').load("pages/curriculum.html");
-        }
-    });
-    </script>
     <main>
-        <div id="content"></div>
+        <div id="curriculum" class="dynamic-content"></div>
+        <div id="projects" class="dynamic-content"></div>
+        <div id="contacts" class="dynamic-content"></div>
+        <div id="default" class="dynamic-content"></div>
     </main>
+
+    <script src="js/contenct.js"></script>
 
     <hr>
 

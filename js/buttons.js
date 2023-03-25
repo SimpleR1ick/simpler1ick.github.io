@@ -1,4 +1,4 @@
-const url = "http://127.0.0.1:5500/index.html";
+const url = "https://simpler1ick.github.io/";
 
 $("#btn-curriculo").click(function () {
     location.href = url + "?dc=curriculum";

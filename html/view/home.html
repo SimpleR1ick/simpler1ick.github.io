@@ -2,8 +2,12 @@
     <div class="row align-items-center p-5">
 
         <!-- Imagem rosto -->
-        <div class="col-md-6">
-            <img src="img/eu.jpg" class="img-fluid img-rosto " alt="eu.jpg">
+        <div class="col-sm-6">
+            <picture>
+                <source srcset="img/eu.jpg" type="image/svg+xml">
+                <img src="img/eu.jpg" class="img-fluid  img-thumbnail img-rosto " alt="eu.jpg">
+            </picture>
+            
         </div>
 
         <!-- Sobre mim -->
@@ -23,7 +27,7 @@
             </p>
 
             <!-- Atalhos -->
-            <div class="row">
+            <div class="row justify-content-center">
                 <div class="col-4">
                     <button id="btn-curriculo" type="button" class="btn btn-warning btn-circle">Curriculo</button>
                 </div>

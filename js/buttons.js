@@ -1,5 +1,5 @@
 // URL DO SITE
-const url = "http://127.0.0.1:5500/index.html";
+const url = "http://simpler1ick.github.io/";
 
 $(document).ready(function () {
     // LINKS DA NAVBAR

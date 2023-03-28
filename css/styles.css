@@ -3,8 +3,12 @@
 }
 
 .nav-link {
-    padding-right: 0.5rem !important;
-    padding-left: 0.5rem !important;
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+}
+
+.h-link {
+    color: black;
 }
 
 .dynamic-content {
@@ -23,8 +27,8 @@
 
 .img-rosto {
     border-radius: 50%;
-    max-width: 450px;
-    max-height: 450px;
+    max-width: 550px;
+    max-height: 550px;
     width: 100%;
     height: auto;
 }

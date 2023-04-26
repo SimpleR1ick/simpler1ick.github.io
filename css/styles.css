@@ -52,3 +52,8 @@ body {
 .link {
     cursor: pointer;
 }
+
+.dp {
+    width: 128px;
+    height: 38px;
+}

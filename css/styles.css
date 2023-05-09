@@ -38,6 +38,7 @@ body {
 }
 
 .img-rosto {
+    border-color: black;
     border-radius: 50%;
     max-width: 550px;
     max-height: 550px;

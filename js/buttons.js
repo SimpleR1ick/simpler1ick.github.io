@@ -1,5 +1,5 @@
 // URL DO SITE
-const url = "https://simpler1ick.github.io/";
+const url = "https://simpler1ick.github.io";
 
 $(document).ready(function () {
     // LINKS DA NAVBAR
@@ -8,27 +8,27 @@ $(document).ready(function () {
     });
 
     $("#lk-curriculo").click(function () {
-        location.href = url + "?dc=curriculum";
+        location.href = url + "?content=curriculum";
     });
 
     $("#lk-projetos").click(function () {
-        location.href = url + "?dc=projects";
+        location.href = url + "?content=projects";
     });
 
     $("#lk-contatos").click(function () {
-        location.href = url + "?dc=contacts";
+        location.href = url + "?content=contacts";
     });
 
     // BOTOES DA HOME
     $("#btn-curriculo").click(function () {
-        location.href = url + "?dc=curriculum";
+        location.href = url + "?content=curriculum";
     });
 
     $("#btn-projetos").click(function () {
-        location.href = url + "?dc=projects";
+        location.href = url + "?content=projects";
     });
 
     $("#btn-contatos").click(function () {
-        location.href = url + "?dc=contacts";
+        location.href = url + "?content=contacts";
     });
 });

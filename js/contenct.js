@@ -1,5 +1,5 @@
 // Dê ao parâmetro um nome de variável
-const dynamicContent = $.getParameterByName("dc");
+const dynamicContent = $.getParameterByName("content");
 
 $(document).ready(function () {
     // Verifique se o parâmetro de URL é currículo

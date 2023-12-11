@@ -1,6 +1,6 @@
 $(function () {
-    $('#curriculum').load("html/view/curriculum.html");
-    $('#projects').load("html/view/projects.html");
-    $('#contacts').load("html/view/contacts.html");
-    $('#default').load("html/view/home.html");
+    $('#curriculum').load("html/pages/curriculum.html");
+    $('#projects').load("html/pages/projects.html");
+    $('#contacts').load("html/pages/contacts.html");
+    $('#default').load("html/pages/home.html");
 });

@@ -1,6 +1,8 @@
 // URL DO SITE
 const url = "https://simpler1ick.github.io";
 
+console.log(window.location.hostname)
+
 $(document).ready(function () {
     // LINKS DA NAVBAR
     $("#lk-nav").click(function () {

@@ -1,5 +1,5 @@
 // URL DO SITE
-const url = "http://127.0.0.1:5500/";
+const url = "https://simpler1ick.github.io/";
 
 console.log(window.location.hostname)
 
